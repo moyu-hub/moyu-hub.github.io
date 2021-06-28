@@ -1,4 +1,94 @@
+
+#主题色
+colors:
+  primary: "#6F93DE"
+  # bg: "#F5F5F5"
+  selection_bg: "#FBDECE" # 选取文字时的背景色
+
+#社交
+social:
+  - name: QQ
+    link: https://wpa.qq.com/msgrd?v=3&uin=910426929&site=qq&menu=yes
+    icon: icon-qq-line
+    color: "#12B7F5"
+  - name: GitHub
+    link: https://github.com/YunYouJun
+    icon: icon-github-line
+    color: "#181717"
+  - name: E-Mail
+    link: mailto:me@yunyoujun.cn
+    icon: icon-mail-line
+    color: "#8E71C1"
+  - name: 微博
+    link: https://weibo.com/jizhideyunyoujun
+    icon: icon-weibo-line
+    color: "#E6162D"
+  - name: 网易云音乐
+    link: https://music.163.com/#/user/home?id=247102977
+    icon: icon-netease-cloud-music-line
+    color: "#C10D0C"
+  - name: 哔哩哔哩动画
+    link: https://space.bilibili.com/1579790
+    icon: icon-bilibili-line
+    color: "#FF8EB3"
+
+#标语动画
+banner:
+  enable: true
+  title: 尛鱼的小站
+  src: /js/ui/banner.js
+  border: true
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
+#公告
+notice:
+  enable: true
+  content: 生活不仅只有眼前的苟且，还有吃和到不了的远方
+
+#图片背景
+bg_image:
+  enable: true
+  url: /images/shui.jpg
+  opacity: 0.5
+
+#侧边栏
+sidebar:
+  bg_image: /images/ccd.jpg
+  bg_position: bottom 3rem center
+  tagcloud:
+    enable: true
+    amount: 20
+
+#头像
 avatar:
-  url: /images/moyu.jpg 
+  enable: true
+  url: /images/moyu.jpg
   rounded: true
   opacity: 1
+  mickey_mouse: true
+  status:
+    enable: true
+    emoji: 😭
+    message: 不想上学
+#小伙伴
+pages:
+
+#打赏
+reward:
+  enable: true
+  icon: icon-hand-coin-line
+  comment: 请给我钱
+  methods:
+    - name: 支付宝
+      path: /images/ZFB.jpg
+      color: "#00A3EE"
+      icon: icon-alipay-line
+    - name: 微信支付
+      path: /images/WX.jpg
+      color: "#2DC100"
+      icon: icon-wechat-pay-line
+
